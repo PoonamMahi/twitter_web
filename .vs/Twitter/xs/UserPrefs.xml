@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{CAB11663-291C-4D3B-AC4A-E4E1BFCF4B84}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Twitter/Views/User/SignIn.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Twitter/Controllers/UserController.cs">
     <Files>
-      <File FileName="Twitter/Views/User/SignIn.cshtml" Line="1" Column="1" />
+      <File FileName="Twitter/Controllers/UserController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,11 +9,11 @@
           <Node name="Twitter" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="Twitter" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="User" expanded="True">
-                  <Node name="SignIn.cshtml" selected="True" />
-                </Node>
+                <Node name="User" expanded="True" />
               </Node>
             </Node>
             <Node name="Twitter.UnitTests" expanded="True" />
