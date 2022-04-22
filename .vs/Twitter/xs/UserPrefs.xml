@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{CAB11663-291C-4D3B-AC4A-E4E1BFCF4B84}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TablesQuery.sql">
-    <Files>
-      <File FileName="TablesQuery.sql" Line="4" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Twitter" expanded="True" selected="True">
+          <Node name="Twitter" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="Twitter" expanded="True" />
+            <Node name="Twitter" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="User" expanded="True">
+                  <Node name="Profile.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
             <Node name="Twitter.UnitTests" expanded="True" />
           </Node>
         </State>

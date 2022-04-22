@@ -66,11 +66,13 @@
         }
         public IActionResult Profile()
         {
-            var Id=int.Parse(HttpContext.Session.GetString(SessionUserId));
-            var ProfileData = _dataContext.RegisterModel.FirstOrDefault(x =>x.Id==Id);
+            var CurrentUser = int.Parse(HttpContext.Session.GetString(SessionUserId));
+            var ProfileData = _dataContext.RegisterModel.FirstOrDefault(x => x.Id == CurrentUser);
+            var userTweets = _dataContext.TweetsModel.Where(x => x.UserId == CurrentUser).ToList();
             if (ProfileData != null)
             {
                 ViewBag.UserData = ProfileData;
+                ViewBag.userTweets = userTweets;
                 return View();
             }
             return RedirectToAction("Index", "Home");
