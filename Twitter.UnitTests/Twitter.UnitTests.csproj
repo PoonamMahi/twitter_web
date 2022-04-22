@@ -20,6 +20,10 @@
     </PackageReference>
     <PackageReference Include="Moq" Version="4.17.2" />
   </ItemGroup>
+  
+  <ItemGroup>
+     <ProjectReference Include="..\Twitter\Twitter.csproj" />
+   </ItemGroup>
 
   <ItemGroup>
     <None Remove="xunit" />
