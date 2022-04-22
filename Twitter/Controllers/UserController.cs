@@ -30,12 +30,14 @@
                                || x.Email == register.Email);
                 if(isExist!= null)
                 {
-                    ViewBag.Message = "Cannot create signup";
+                    ViewBag.Message = "User Already Exist";
+                    return View(isExist);
                 }
                 else
                 {
                     _dataContext.RegisterModel.Add(register);
                     _dataContext.SaveChanges();
+                    ViewBag.Message = "User Added Successfully";
                 }
             }
             return RedirectToAction("Index","Home",ViewBag.Message);
