@@ -1,22 +1,19 @@
 ﻿<Properties StartupConfiguration="{CAB11663-291C-4D3B-AC4A-E4E1BFCF4B84}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Twitter/Controllers/UserController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Twitter.UnitTests/UserControllerShould.cs">
     <Files>
-      <File FileName="Twitter/Controllers/UserController.cs" Line="1" Column="1" />
+      <File FileName="Twitter.UnitTests/UnitTest1.cs" Line="18" Column="4" />
+      <File FileName="Twitter.UnitTests/UserControllerShould.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Twitter" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="Twitter" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="UserController.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="User" expanded="True" />
-              </Node>
+            <Node name="Twitter" expanded="True" />
+            <Node name="Twitter.UnitTests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="UserControllerShould.cs" selected="True" />
             </Node>
-            <Node name="Twitter.UnitTests" expanded="True" />
           </Node>
         </State>
       </Pad>
