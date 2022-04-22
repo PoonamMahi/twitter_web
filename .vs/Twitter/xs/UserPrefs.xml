@@ -1,11 +1,15 @@
 ﻿<Properties StartupConfiguration="{CAB11663-291C-4D3B-AC4A-E4E1BFCF4B84}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Twitter/Views/User/Profile.cshtml">
+    <Files>
+      <File FileName="Twitter/Views/User/Profile.cshtml" Line="33" Column="27" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Twitter" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="Twitter" expanded="True">
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="User" expanded="True">
                   <Node name="Profile.cshtml" selected="True" />
