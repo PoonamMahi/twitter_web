@@ -12,27 +12,29 @@
                 <div class="card-header">
                     <div class="d-flex">
                         <h5>
-                        <img src="~/assets/UserDefaultLogo.png" width="50" class="avatar img-circle" alt="avatar" />
-                           @item.UserName
-                </h5>
-            </div>
-            <div class="ml-auto">
-                 <label style="font-size:small"> Posted: @item.createdAt </label>
+                            <img src="~/assets/UserDefaultLogo.png" width="50" class="avatar img-circle" alt="avatar" />
+                            @item.UserName
+                        </h5>
+                    </div>
+                    <div class="ml-auto">
+                        <label style="font-size:small"> Posted: @item.createdAt </label>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">   <label>@item.TweetDescription</label></h5>
+                    <div class="d-flex ml-auto">
+                    </div>
+                </div>
             </div>
         </div>
-       
-        <div class="card-body">
-            <h5 class="card-title">   <label>@item.TweetDescription</label></h5>
-            <div class="d-flex ml-auto">
-            </div>
-        </div>
-        </div>
-    </div>
     }
 
 }
 else
 {
-
+    <div>
+        <h4>No Tweets To display</h4>
+    </div>
 
 }

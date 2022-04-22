@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{CAB11663-291C-4D3B-AC4A-E4E1BFCF4B84}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Twitter/Views/User/Register.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Twitter/Views/Shared/_UserLayout.cshtml">
     <Files>
-      <File FileName="Twitter/Views/User/Register.cshtml" Line="1" Column="1" />
+      <File FileName="Twitter/Views/Shared/_UserLayout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,12 +9,10 @@
           <Node name="Twitter" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="Twitter" expanded="True">
-              <Node name="Migrations" expanded="True">
-                <Node name="20220422080622_First.cs" expanded="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="User" expanded="True">
-                  <Node name="Register.cshtml" selected="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_UserLayout.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
