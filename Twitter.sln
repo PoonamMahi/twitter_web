@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twitter", "Twitter\Twitter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter.UnitTests", "Twitter.UnitTests\Twitter.UnitTests.csproj", "{4FE3DC76-F3B4-4EA8-BA41-EF1CAE5C8A4C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36C2773B-7388-4741-B9EE-467DCE3AE9BF}"
+	ProjectSection(SolutionItems) = preProject
+		TablesQuery.sql = TablesQuery.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{CAB11663-291C-4D3B-AC4A-E4E1BFCF4B84}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TablesQuery.sql">
+    <Files>
+      <File FileName="TablesQuery.sql" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Twitter" expanded="True" selected="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="Twitter" expanded="True" />
+            <Node name="Twitter.UnitTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Twitter PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
