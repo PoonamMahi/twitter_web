@@ -1,19 +1,35 @@
-﻿using NUnit.Framework;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Twitter.Controllers;
+using Twitter.DataAccess;
+using Xunit;
+using System.Configuration;
+using Microsoft.Extensions.Configuration;
+
 namespace Twitter.UnitTests
 {
-    [TestFixture]
+
     public class UserControllerShould
     {
-        /*private readonly Mock<IEmployeeRepository> _mockRepo;
-        private readonly EmployeesController _controller;
-        public EmployeesControllerTests()
+        private readonly DataContext _mockContext;
+        private readonly UserController _controller;
+        public UserControllerShould()
         {
-            _mockRepo = new Mock<IEmployeeRepository>();
-            _controller = new EmployeesController(_mockRepo.Object);
-        }*/
-        [Test]
-        public void Index()
+            var options = new DbContextOptionsBuilder<DataContext>().UseSqlServer("Data Source=mydatacenter.database.windows.net;Initial Catalog=mydatapool;User ID=Poonam;Password=Data@mine12;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False").Options;
+            _mockContext = new DataContext(options);
+            _controller = new UserController(_mockContext);
+        }
+        [Fact]
+        public void Should_ReturnViewForSignIn()
         {
+            var result = _controller.SignIn();
+            Assert.IsType<ViewResult>(result);
+        }
+        [Fact]
+        public void Should_ReturnViewForRegister()
+        {
+            var result = _controller.Register();
+            Assert.IsType<ViewResult>(result);
 
         }
     }

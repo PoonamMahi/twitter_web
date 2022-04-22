@@ -19,6 +19,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Moq" Version="4.17.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
   </ItemGroup>
   
   <ItemGroup>
@@ -29,5 +30,6 @@
     <None Remove="xunit" />
     <None Remove="xunit.runner.visualstudio" />
     <None Remove="Moq" />
+    <None Remove="System.Configuration.ConfigurationManager" />
   </ItemGroup>
 </Project>
