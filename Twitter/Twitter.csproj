@@ -16,8 +16,10 @@
 
   <ItemGroup>
     <None Remove="Migrations\" />
+    <None Remove="Table Query\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Table Query\" />
   </ItemGroup>
 </Project>
