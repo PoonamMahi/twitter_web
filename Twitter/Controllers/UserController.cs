@@ -64,6 +64,7 @@
                 }
                
             }
+            ViewBag.Message = "Invaild login detials";
             return View();
         }
         public IActionResult Profile()
